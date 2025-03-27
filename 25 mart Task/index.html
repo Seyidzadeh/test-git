@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="highlight1">Nu HTML Checker</h1>
+    </header>
+    <nav>
+      <p class="p1">
+        This tool is an ongoing experiment in better HTML checking,and its
+        behavior remains subject to change
+      </p>
+      <h2>Showing results for a01</h2>
+    </nav>
+    <main>
+      <div>
+        <p>
+          This tool is an ongoing experiment in better HTML checking,and its
+          behavior remains subject to change
+        </p>
+      </div>
+      <div class="div1">
+        <div>
+          Checker input <br />
+          Show
+          <div class="checkbox">
+          <label> <input type="checkbox" value="source" /> source </label>
+          <label> <input type="checkbox" value="source" /> outline </label>
+          <label> <input type="checkbox" value="source" /> image report </label>
+          </div> 
+          <button type="button">Options...</button>
+        </div><br>
+        <div>
+          <label for="check-method">Check by</label>
+          <select id="check-method">
+            <option>File upload</option>
+            <option>Download</option>
+          </select>
+          <button type="button" class="btn-option">Options...</button>
+          No File Choosen
+          <p class="p2">
+            Uploaded files with .xhtml or .xml extensions are parsed using the
+            XML parser.
+          </p>
+          <button type="button">Check</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h1 class="highlight2">
+        Document checking completed. No errors or warnings to show.
+      </h1>
+      <p>Used the HTML parser</p>
+      <p>Total exucution time 3 mls</p>
+    </footer>
+  </body>
+</html>
