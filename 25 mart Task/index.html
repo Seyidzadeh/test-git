@@ -25,30 +25,35 @@
         </p>
       </div>
       <div class="div1">
-        <div>
-          Checker input <br />
-          Show
-          <div class="checkbox">
-          <label> <input type="checkbox" value="source" /> source </label>
-          <label> <input type="checkbox" value="source" /> outline </label>
-          <label> <input type="checkbox" value="source" /> image report </label>
-          </div> 
-          <button type="button" class="btn">Options...</button>
-        </div><br>
-        <div>
-          <label for="check-method">Check by</label>
-          <select id="check-method">
-            <option>File upload</option>
-            <option>Download</option>
-          </select>
-          <button type="button" class="btn">Choose file</button>
-          No File Choosen
-          <p class="p2">
-            Uploaded files with .xhtml or .xml extensions are parsed using the
-            XML parser.
-          </p>
-          <button type="button" class="btn">Check</button>
-        </div>
+        <fieldset class=".fieldborder">
+          <legend>Checker input</legend>
+          <div>
+            Show
+            <div class="checkbox">
+              <label> <input type="checkbox" value="source" /> source </label>
+              <label> <input type="checkbox" value="source" /> outline </label>
+              <label>
+                <input type="checkbox" value="source" /> image report
+              </label>
+            </div>
+            <button type="button" class="btn">Options...</button>
+          </div>
+          <br />
+          <div>
+            <label for="check-method">Check by</label>
+            <select id="check-method">
+              <option>File upload</option>
+              <option>Download</option>
+            </select>
+            <button type="button" class="btn">Choose file</button>
+            No File Choosen
+            <p class="p2">
+              Uploaded files with .xhtml or .xml extensions are parsed using the
+              XML parser.
+            </p>
+            <button type="button" class="btn">Check</button>
+          </div>
+        </fieldset>
       </div>
     </main>
     <footer>
