@@ -1,0 +1,37 @@
+.highlight1 {
+  background-color: #345c97;
+  width: 900px;
+  border-radius: 10px;
+  color: white;
+}
+
+.p1 {
+  color: #76737E;
+}
+
+.highlight2 {
+  background-color: #CBFFCA;
+  width: 900px;
+  border-radius: 10px;
+}
+.p2 {
+  color: #76737E;
+}
+.checkbox {
+  border: 1px solid #76737E;
+  border-radius: 10px;
+  width: 300px;
+}
+.btn {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+}
+.fieldborder{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+  .div1 {
+    width: 900px;
+  }
+
