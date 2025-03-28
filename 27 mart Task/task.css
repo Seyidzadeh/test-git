@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1364A6; 
+}
+.body {
+  background-color: white;
+  width: 750px;
+  margin: auto;
+}
+
+.body h1 {
+    color: #123F83;
+    padding-left: 10px;
+}
+
+.body p {
+    padding: 10px 15px;
+}
+
+.header {
+    padding: 10px 15px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
