@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #1364A6; 
+  background-color: #1364a6;
+
 }
 .body {
   background-color: white;
@@ -13,21 +14,43 @@ body {
 }
 
 .body h1 {
-    color: #123F83;
-    padding-left: 10px;
+  color: #123f83;
+  padding-left: 10px;
 }
 
 .body p {
-    padding: 10px 15px;
+  padding: 10px 15px;
+  font-size: 16px;
 }
 
 .header {
-    padding: 10px 15px;
+  padding: 10px 15px;
 }
 
 a {
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
+.title-color {
+  color: #0a2645;
+}
+.links {
+  width: 350px;
+  margin-left: 400px;
+  margin-bottom: 20px;
+}
+.landscape-links {
+  width: 350px;
+  margin-top: 60px;
+}
+
+.footer a {
+  color: #B2D0F2;
+  text-decoration: none;
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+}
+
 
