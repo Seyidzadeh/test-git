@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Start Bootstrap</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Zu+X+eEQGvT/NbCkufzrlW9h9Y0nI3EhYYDYmIEn8GGXN4QAyAoSfjR6ZP8gCnhu2CPcvLS9R3tYhRnHXaXvQA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -92,9 +93,42 @@
   <!-- Contact -->
   <section>
     <div class="container">
-      <!-- Burada "Contact" hissəsini əlavə edə bilərsən -->
+     <h1 class="contact-me">Contact me</h1>
     </div>
-  </section>
+    <form class="form-group">
+      <label for="name">Full name</label>
+      <input type="text" name="name" id="name">
 
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email">
+
+      <label for="Phone number"> Phone number</label>
+      <input type="tel" name="phone" id="phone">
+
+      <label for="message">Message</label>
+      <textarea name="message" id="message"> </textarea>
+
+      <button type="submit" class="btn-send"> Send </button>
+    </form>
+  </section>
+  <footer class="footer">
+  <section class="location">
+    <h1>Location</h1>
+    <p>2215 John Daniel Drive<br>Clark, MO 65243</p>
+  </section>
+  <section class="around">
+    <h1>Around the Web</h1>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+  </section>
+  <section class="freelance">
+    <h1>About Freelancer</h1>
+    <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
+  </section>
+</footer>
+<div class="underline">
+  <p class="copy-right">&copy; 2023 Your Website</p>
+</div>
 </body>
 </html>
