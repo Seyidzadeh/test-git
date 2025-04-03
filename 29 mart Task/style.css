@@ -177,12 +177,11 @@ nav {
   gap: 12px;
 }
 
-.form-group input{
+.form-group input {
   width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  
 }
 .form-group textarea {
   width: 100%;
@@ -215,7 +214,7 @@ nav {
   margin: 0 auto;
 }
 
-.footers{
+.footers {
   display: flex;
   flex-direction: row;
 }
@@ -231,10 +230,14 @@ nav {
 }
 
 .footer section {
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 200px;
+  float: left;
+}
+
+.footer-parent-section {
+  width: 50%;
+  justify-content: space-around;
+  display: flex;
+  margin: 0 auto;
 }
 
 .underline {
@@ -246,4 +249,16 @@ nav {
 .copy-right {
   font-size: 12px;
   color: #ccc;
+}
+
+.location {
+  margin: 0 50px;
+}
+
+.around {
+margin: 0 50px;
+}
+
+.frelance {
+margin: 0 50px;
 }
