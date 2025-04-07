@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 96%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -172,6 +172,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   max-width: 400px;
   margin: 0 auto 40px auto;
   gap: 12px;
@@ -203,44 +204,53 @@ nav {
 }
 .footer {
   background-color: #2c3e50;
-  max-width: 1200px;
-}
-
-.footer-headers {
-  text-transform: uppercase;
-  color: #fff;
-  padding: 40px 20px;
-  width: 400px;
-  margin: 0 auto;
-}
-
-.footers {
+  width: 100%;
+  padding: 60px 20px; /* Hündürlük əvəzinə padding */
   display: flex;
-  flex-direction: row;
-}
-
-.footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: #2c3e50;
-  color: white;
-  padding: 40px 0;
-  max-width: 100%;
-}
-
-.footer section {
-  float: left;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .footer-parent-section {
-  width: 50%;
-  justify-content: space-around;
   display: flex;
-  margin: 0 auto;
-  max-width: 1200px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
+  max-width: 1200px; /* əlavə olundu */
+  width: 100%;
 }
 
+/* Başlıqlar */
+.footer-parent-section h1 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Mətnlər və linklər */
+.footer-parent-section p, 
+.footer-parent-section a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* İkonlar */
+.footer-parent-section i {
+  color: white;
+  margin: 0 8px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-parent-section i:hover {
+  color: #ff6e00;
+}
+
+/* Alt underline copy right */
 .underline {
   background-color: #212529;
   padding: 20px 0;
@@ -252,16 +262,4 @@ nav {
   font-size: 13px;
   color: #adb5bd;
   margin: 0;
-}
-
-.location {
-  margin: 0 50px;
-}
-
-.around {
-margin: 0 50px;
-}
-
-.frelance {
-margin: 0 50px;
 }
