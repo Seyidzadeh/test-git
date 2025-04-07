@@ -1,0 +1,208 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  min-height: 60vh;
+  background-color: #212529;
+  color: white;
+  padding: 8px 0px 20px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+header nav ul {
+  display: flex;
+  column-gap: 16px;
+  font-size: 18px;
+  color: #ffffff8c;
+}
+
+header .logo {
+  font-size: 20px;
+}
+header nav a {
+  transition: 0.5s;
+}
+header nav a:hover {
+  color: white;
+}
+
+.header-banner {
+  width: 55%;
+  margin: 0px auto;
+  margin-top: 100px;
+  text-align: center;
+}
+.header-banner h1 {
+  font-size: 48px;
+}
+.header-banner p {
+  font-size: 20px;
+  margin: 16px 0px;
+  line-height: 28px;
+  color: #ffffff8c;
+}
+
+.header-banner .header-banner-btns {
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.header-banner .header-banner-btns a {
+  padding: 12px 20px;
+  background-color: #2d75e2;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+
+.header-banner .header-banner-btns a:hover {
+  background-color: #144fa9;
+}
+
+.header-banner .header-banner-btns a.outline {
+  background-color: transparent;
+  border: 1px solid #ffff;
+}
+
+.header-banner .header-banner-btns a.outline:hover {
+  background-color: #fff;
+  color: #212529;
+}
+
+#services {
+  padding: 100px 0px;
+}
+
+.service-list {
+  display: flex;
+  column-gap: 48px;
+}
+
+#services .service-icon {
+  padding: 16px 24px;
+  background-color: #0d6efd;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+#services .service-icon i {
+  font-size: 32px;
+  color: #fff;
+}
+#services article h3 {
+  font-size: 24px;
+  margin: 12px 0px;
+}
+
+#services article p {
+  margin-bottom: 16px;
+  color: #191b1d;
+}
+
+#services article a {
+  color: #0d6efd;
+}
+
+#price-section {
+  padding: 100px 0px;
+  background-color: rgb(248, 249, 250);
+}
+
+.section-header {
+  text-align: center;
+}
+.section-header h3 {
+  font-size: 34px;
+}
+
+.section-header p {
+  color: #2d2c2c8c;
+}
+
+.price-list {
+  margin-top: 60px;
+  display: flex;
+  column-gap: 60px;
+}
+
+.price {
+  flex-grow: 1;
+  background: #fff;
+  padding: 40px 48px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.price .price-status {
+  font-weight: 700;
+  color: #6c757d;
+}
+.price .price-amount {
+  font-size: 56px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.price-amount-month {
+  font-size: 20px;
+  padding-bottom: 12px;
+  color: #6c757d;
+}
+.price ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-bottom: 24px;
+}
+.price ul i {
+  font-size: 8px;
+  color: blue;
+  margin-right: 8px;
+}
+.price ul li.disabled {
+  color: #6c757d;
+}
+
+.price ul li.disabled i {
+  color: #6c757d;
+}
+
+.price button {
+  border: none;
+  width: 100%;
+  padding: 8px 12px;
+  background: transparent;
+  border: 1px solid blue;
+  border-radius: 6px;
+  color: blue;
+  transition: 0.5s background;
+}
+.price button:hover {
+  background: blue;
+  color: white;
+}
