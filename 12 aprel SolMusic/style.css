@@ -1,0 +1,102 @@
+/* Universal selector */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Images responsive */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Table collapse borders */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove border from fieldset */
+fieldset {
+  border: none;
+}
+
+/* Form elements inherit font */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #08192d;
+  padding-top: 30px;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 700px;
+}
+
+.menu {
+  display: flex;
+  color: azure;
+  gap: 30px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  margin-bottom: 20px;
+
+}
+
+.right-header {
+  color: azure;
+  display: flex;
+  gap: 30px;
+}
+
+.colorful-link {
+  color: #9d192d;
+}
+
+.menubar {
+  background-color: #4c4c4c;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.fa-solid {
+  background-color: #222222;
+  color: azure;
+}
