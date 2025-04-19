@@ -12,6 +12,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 header {
   position: fixed;
   width: 100%;
@@ -55,8 +56,7 @@ ul {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url(https://preview.colorlib.com/theme/edustage/img/banner/home-banner.jpg)
-    center/cover;
+  background: url(https://preview.colorlib.com/theme/edustage/img/banner/home-banner.jpg) center/cover;
 }
 
 .section1-txt {
@@ -105,12 +105,14 @@ ul {
   align-items: center;
   justify-content: center;
   padding-top: 20px;
-  
+
 }
+
 .section2-txt h1 {
   color: #002347;
   font-size: 36px;
 }
+
 .section2-txt h4 {
   color: gray;
   font-style: italic;
@@ -130,7 +132,7 @@ ul {
   background-color: #f9f9ff;
   padding: 40px 30px;
   text-align: left;
-  
+
 }
 
 .section2-cards h4 {
@@ -140,4 +142,100 @@ ul {
 
 .section2-cards p {
   color: gray;
+}
+
+.section3-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.section3-card {
+  background-color: #f9f9ff;
+  transition: 0.5s ease;
+}
+
+.section3-card:hover {
+  box-shadow: 0 0 10px #000;
+}
+
+.section3-card-img {
+  overflow: hidden;
+}
+
+.section3-card-img img {
+  transition: 0.5s ease;
+}
+
+.section3-card:hover .section3-card-img img {
+  transform: scale(1.1);
+}
+
+.section3-card-txt {
+  padding: 20px 16px;
+  position: relative;
+}
+
+.section3-card-txt a {
+  display: inline-block;
+  background-color: #002347;
+  color: #fff;
+  padding: 8px 12px;
+}
+
+.section3-card-txt>span {
+  display: inline-flex;
+  background-color: #fdc632;
+  color: #002347;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  top: -34px;
+  font-weight: 600;
+}
+
+.section3-card:hover .section3-card-txt>span {
+  background-color: #002347;
+  color: #fdc632;
+}
+
+.section3-card-txt h2,
+h4 {
+  padding: 10px 0;
+}
+
+.section3-card-txt h2 {
+  color: #002347;
+}
+
+.section3-card:hover h2 {
+  color: #fdc632;
+}
+
+.section3-card-txt h4 {
+  color: gray;
+}
+
+.section3-card-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.section3-card-avatar h4 {
+  color: #002347;
+}
+
+.section3-card-avatar div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
